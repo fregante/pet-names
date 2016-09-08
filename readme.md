@@ -77,4 +77,4 @@ $ pet-names --help
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Federico Brigante](twitter.com/bfred_it)
