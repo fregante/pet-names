@@ -1,14 +1,10 @@
 {
-  "name": "cat-names",
-  "version": "1.0.2",
-  "description": "Get popular cat names",
+  "name": "pet-names",
+  "version": "0.0.0",
+  "description": "Get popular pet names",
   "license": "MIT",
-  "repository": "sindresorhus/cat-names",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
+  "repository": "bfred-it/pet-names",
+  "author": "Federico Brigante <bfred-it@users.noreply.github.com> (twitter.com/bfred_it)",
   "bin": "cli.js",
   "engines": {
     "node": ">=0.10.0"
@@ -19,7 +15,7 @@
   "files": [
     "index.js",
     "cli.js",
-    "cat-names.json"
+    "pet-names.json"
   ],
   "keywords": [
     "cli-app",
@@ -31,17 +27,19 @@
     "array",
     "random",
     "rand",
-    "animal",
-    "cat",
-    "cats",
-    "kitten",
+    "boyfriend",
+    "pet",
+    "girflriend",
+    "cute",
+    "adorable",
+    "pumpkin",
     "name",
     "names",
     "female",
     "male"
   ],
   "dependencies": {
-    "meow": "^3.6.0",
+    "meow": "^3.7.0",
     "unique-random-array": "^1.0.0"
   },
   "devDependencies": {

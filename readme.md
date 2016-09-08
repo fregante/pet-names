@@ -1,28 +1,29 @@
-# cat-names [![Build Status](https://travis-ci.org/sindresorhus/cat-names.svg?branch=master)](https://travis-ci.org/sindresorhus/cat-names)
+# pet-names [![Build Status](https://travis-ci.org/bfred-it/pet-names.svg?branch=master)](https://travis-ci.org/bfred-it/pet-names)
 
-> Get popular cat names
+> Get popular pet names 
 
-![](dofle.jpg)
+The name list is just a [JSON file](pet-names.json) and can be used wherever. Originally from cutepetname.com
 
-The name list is just a [JSON file](cat-names.json) and can be used wherever.
+> **pet name**
+> _noun_
+> a name that is used instead of someone's usual first name to express fondness or familiarity.
 
 *Not accepting PRs for additional names.*
-
 
 ## Install
 
 ```
-$ npm install --save cat-names
+$ npm install --save pet-names
 ```
 
 
 ## Usage
 
 ```js
-const catNames = require('cat-names');
+const petNames = require('pet-names');
 
-catNames.random();
-//=> 'Max'
+petNames.random();
+//=> 'Snuggle Bunny'
 ```
 
 
@@ -32,31 +33,31 @@ catNames.random();
 
 Type: `array`
 
-Top 100 cat names in alphabetical order.
+~400 pet names in alphabetical order.
 
 ### .random()
 
 Type: `function`
 
-Random cat name.
+Random pet name.
 
 
 ## CLI
 
 ```
-$ npm install --global cat-names
+$ npm install --global pet-names
 ```
 
 ```
-$ cat-names --help
+$ pet-names --help
 
   Examples
-    $ cat-names
-    Max
+    $ pet-names
+    Pumpkin
 
-    $ cat-names --all
-    Abby
-    Angel
+    $ pet-names --all
+    Adorable
+    Alliebear
     ...
 
   Options
@@ -66,13 +67,13 @@ $ cat-names --help
 
 ## Related
 
+- [cat-names](https://github.com/sindresorhus/cat-names) - Get popular cat names
 - [dog-names](https://github.com/sindresorhus/dog-names) - Get popular dog names
 - [pokemon](https://github.com/sindresorhus/pokemon) - Get Pokémon names
 - [superb](https://github.com/sindresorhus/superb) - Get superb like words
 - [superheroes](https://github.com/sindresorhus/superheroes) - Get superhero names
 - [supervillains](https://github.com/sindresorhus/supervillains) - Get supervillain names
 - [yes-no-words](https://github.com/sindresorhus/yes-no-words) - Get yes/no like words
-
 
 ## License
 
