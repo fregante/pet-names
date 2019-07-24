@@ -2,42 +2,39 @@
   "name": "pet-names",
   "version": "1.0.1",
   "description": "Get popular pet names",
+  "keywords": [
+    "adorable",
+    "array",
+    "bin",
+    "boyfriend",
+    "cli",
+    "cli-app",
+    "cute",
+    "female",
+    "girflriend",
+    "list",
+    "male",
+    "name",
+    "names",
+    "pet",
+    "pumpkin",
+    "rand",
+    "random",
+    "word",
+    "words"
+  ],
+  "repository": "fregante/pet-names",
   "license": "MIT",
-  "repository": "bfred-it/pet-names",
-  "author": "Federico Brigante <bfred-it@users.noreply.github.com> (twitter.com/bfred_it)",
-  "bin": "cli.js",
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
+  "author": "Federico Brigante <opensource@bfred.it> (bfred.it)",
   "files": [
     "index.js",
     "cli.js",
     "pet-names.json"
   ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "bin",
-    "word",
-    "words",
-    "list",
-    "array",
-    "random",
-    "rand",
-    "boyfriend",
-    "pet",
-    "girflriend",
-    "cute",
-    "adorable",
-    "pumpkin",
-    "name",
-    "names",
-    "female",
-    "male"
-  ],
+  "bin": "cli.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
   "dependencies": {
     "meow": "^3.7.0",
     "unique-random-array": "^1.0.0"
@@ -45,5 +42,8 @@
   "devDependencies": {
     "ava": "*",
     "xo": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
   }
 }

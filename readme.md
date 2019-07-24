@@ -1,6 +1,6 @@
-# pet-names [![Build Status](https://travis-ci.org/bfred-it/pet-names.svg?branch=master)](https://travis-ci.org/bfred-it/pet-names)
+# pet-names [![Build Status](https://travis-ci.org/fregante/pet-names.svg?branch=master)](https://travis-ci.org/fregante/pet-names)
 
-> Get popular pet names 
+> Get popular pet names
 
 The name list is just a [JSON file](pet-names.json) and can be used wherever. Originally from cutepetname.com
 
@@ -77,4 +77,4 @@ $ pet-names --help
 
 ## License
 
-MIT © [Federico Brigante](twitter.com/bfred_it)
+MIT © [Federico Brigante](https://bfred.it)
