@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 'use strict';
-const meow = require('meow');
+const meow = require('meow/index.js');
 const petNames = require('./');
 
 const cli = meow([
